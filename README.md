@@ -35,8 +35,8 @@ To run the project locally, follow these steps:
 
 1. **Clone the Repository:**
 
-   git clone https://github.com/Saurabh23089/agridataset.git
-   cd agridataset
+   - git clone https://github.com/Saurabh23089/agridataset.git
+   - cd agridataset
 
 2. **Install dependencies:**
 
@@ -44,7 +44,7 @@ To run the project locally, follow these steps:
 
 3. **Run the Project:**
 
-yarn start
+   yarn start
 
 ### Screenshots
 
