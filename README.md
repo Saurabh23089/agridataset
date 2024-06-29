@@ -10,7 +10,6 @@ AgriDataset is a web application for visualizing aggregated crop data and yearly
 - [Installation](#installation)
 - [Screenshots](#screenshots)
 
-
 ## Overview
 
 AgriDataset provides two main features:
@@ -25,7 +24,6 @@ AgriDataset provides two main features:
 - Error handling with custom `Error` component for displaying fetch errors.
 - Loading state handled with `Loading` component for better user experience.
 
-
 ### Prerequisites
 
 - Node.js
@@ -34,7 +32,6 @@ AgriDataset provides two main features:
 ## Installation
 
 To run the project locally, follow these steps:
-
 
 1. **Clone the Repository:**
 
@@ -45,11 +42,11 @@ To run the project locally, follow these steps:
 
    yarn install
 
-3.  **Run the Project:**
+3. **Run the Project:**
 
-   yarn start
+yarn start
 
 ### Screenshots
 
-!![Yearly Production Data Table]('./public/screenshots/yearlydata.png')
-![Aggregated Crop Data Table]('./public/screenshots/cropdata.png')
+![Yearly Production Data Table](./public/screenshots/yearlydata.png)
+![Aggregated Crop Data Table](./public/screenshots/cropdata.png)
