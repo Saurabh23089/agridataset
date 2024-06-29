@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# AgriDataset Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AgriDataset is a web application for visualizing aggregated crop data and yearly production data using Mantine UI components in React.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites] (#Prerequisites)
+- [Installation](#installation)
+- [Screenshots](#screenshots)
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+AgriDataset provides two main features:
 
-### `yarn test`
+1. **Yearly Production Data Table:** Displays the crop with maximum and minimum production for each year.
+2. **Aggregated Crop Data Table:** Displays average yield and average cultivation area of crops aggregated over the years 1950-2020.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `yarn build`
+- Fetches data using custom hooks (`useFetchData`) for dynamic data handling.
+- Utilizes Mantine UI components (`Table`, `Title`, `Container`) for structured and responsive data presentation.
+- Error handling with custom `Error` component for displaying fetch errors.
+- Loading state handled with `Loading` component for better user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js
+- Yarn
 
-### `yarn eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the project locally, follow these steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. **Clone the Repository:**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   git clone https://github.com/Saurabh23089/agridataset.git
+   cd agridataset
 
-## Learn More
+2. **Install dependencies:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   yarn install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.  **Run the Project:**
+
+   yarn start
+
+### Screenshots
+
+!![Yearly Production Data Table]('./public/screenshots/yearlydata.png')
+![Aggregated Crop Data Table]('./public/screenshots/cropdata.png')
