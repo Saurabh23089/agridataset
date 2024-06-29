@@ -6,7 +6,7 @@ AgriDataset is a web application for visualizing aggregated crop data and yearly
 
 - [Overview](#overview)
 - [Features](#features)
-- [Prerequisites] (#Prerequisites)
+- [Prerequisites](#Prerequisites)
 - [Installation](#installation)
 - [Screenshots](#screenshots)
 
